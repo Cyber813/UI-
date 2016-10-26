@@ -1,1 +1,69 @@
-HI everyone this is my homewor
+1. Write about the operator precedence?
+
+Site 1: https://developer.mozilla.org 
+
+There are different number of operators and given the precedence from highest to lowest.
+
+case 1: If there are two operators with different precedence level, then the higher operator gets executed first. 
+
+Example 1: 3 + 4 * 5 => 23 => Here the multiplication operator gets evaluated first as it got the higher operator precedence and then the lowest precedence. 
+
+case 2: If two operators with same precedence level, there are cases that we will evaluate from left-to-right or right-to-left. (Associativity determines whether it has to be evaluated left-to-right or right-to-left)
+
+Example 2: 20 / 4 * 10 => 50 will be the output, In the precendence table the expression should be evaluated from the left-to-right for multlication and division as there is a same precedence.
+
+PRECENDENCE TABLE: Higher to Lower Left-to-Right Associativity
+
+1. MemberAccess - It access the properties and methods of an 
+object using the '.' from left to right
+2. Computer Member Access - It is another method to access the properties and objects using the '[]' from left to right 
+3. Function call - It is a javascript procedure and that performs a task or performs a value. functionName(argument); It evaluates from left to right
+4. Multiplication - It performs the multiplication and calculates from left to right.'*'
+5. Division - Same operator precedence as multiplication - '/'
+6. Remainder - Evaluates the expression and gives the remainder of the given operands.Same precedence as multiplication and division. '%'
+7. Addition - It evaluates the expression from left to right and given the next predence to multiplication,Division and Remainder. '+'
+8. Subtraction - Same precedence as addition and evaluated from left to right. '-'
+9. Bitwise Left Shift - This operator evaluates from left to right and it shifts the bits to left side and '<<'
+10. Bitwise Right Shift - This operator evaluated from left to right and it shifts the bits to right side and  '>>'
+11. Bitwise Unsigned Right Shift - '>>>'
+12. LessThan - It evaluates the expression from left to right '<'. It compares the left operand with the right operand
+13. LessThan OR Equalto - It evaluates the expression from left to right and gives the value lessthan or equal to the given value. '<=' It compares the left operand with right operand.
+14. GreaterThan - It evaluates the expression from left to right and '>' It compares the left operand with the right operand 
+15. GreaterThan Or Equalto - It evaluates the expression from left to right and '>=' It compares the left operand with the right operand if the left operand is greater or equal to the right operand it generates true.
+16. in - In arrays and objects we do have the methods and properties and if they belong to the particular objects or arrays we check by using 'in'. It evaluates from left to right and gives true if they are present in that particular object.
+17. instanceof - It evaluates from left to right and gives true if the new object which is created from the particular class  belongs to it own object. 'instanceof'
+18. Equality - Equality check only the value, '=='
+19. Inequality - Inequality checks only the value, '!='
+20. Strict Equality - Strict Equality checks both value and type, '==='
+21. Strict Inequality - Strict Inequality checks both value  and type, '!=='
+22. Bitwise And - Bitwise AND gives the value 1 if both operands are true. Performs AND operation , '&'
+23. Bitwise XOR - Bitwise XOR gives the value as 1 if only the one of the operands are true and otherwise it is false, '^'
+24. Bitwise OR - Bitwise OR gives if any of the operand is true. '|'
+25. Logical AND- Logical AND gives the truthy value if ond only if both the conditions are true. '&&'
+26. Logical OR- Logical OR gives the truthy value if and only if , one of the operands are true. '||'
+27. Comma or Sequence - The comma operator evaluates from left to right and returns the value of the last operand. ',' .. lowest priority
+
+Right-to-Left Associativity
+1. new(without argument list): To create an instance of existing object.. 'new'.. 
+2. logical NOT : Giving the value as truthy if it is false and vice-versa.. '! expression'
+3. Bitwise NOT : It gives opposite value for each bit. '~'
+4. Unary Plus: It converts the operands into a number. If it can't parse a particular value then it returns a NaN '+'
+5. Unary Negation: It negates the operand "-"
+6. Pre Increment: It first increment and then assign a value to a operand(++..expr)
+7. Pre Decrement:(-- expression)
+8. typeof:
+9. void :
+10. delete :
+11. Exponentiation : 
+12. Conditional:
+13. Assignment:
+14. yield:
+15. yield* :
+
+
+
+
+
+
+Refer the Homework1.html for the examples of different precendence operators and how they are evaluated.
+

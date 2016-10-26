@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript1</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body ng-app ="myApp">
+
+<div ng-controller="FirstCtrl"> 
+
+<table>
+
+		<thead>
+			<caption>Associativity</caption>
+			<tr>
+			<th>LR</th>
+			<th>Symbol</th>
+			<th>RL</th>
+			<th>Symbol></th>
+			</tr>
+			
+		</thead>
+
+	<tbody>
+		<tr ng-repeat="hello in associativity">
+			<td>{{hello.LR}}</td>
+			<td>{{hello.Symbol}}</td>
+			<td>{{hello.RL}}</td>
+			<td>{{hello.symbol}}</td>
+		</tr>
+	</tbody>
+
+</table>
+<br/><br/>
+<table>
+
+<caption>No Associativity</caption>
+	<tr>
+		<th>NA</th>
+		<th>Figure</th>
+	</tr>
+	
+	<tbody>
+	<tr ng-repeat="call in noAssociativity">
+	<td>{{call.NA}}</td>
+	<td> {{call.Figure}}</td>
+	</tr>
+	</tbody>
+</table> <br/>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="angular.min.js"></script>
+<script src="angular.js"></script>
+
+<script src="javascript.js"></script>
+</body>
+</html>
