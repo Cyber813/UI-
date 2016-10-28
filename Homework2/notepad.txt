@@ -1,0 +1,60 @@
+1) Logical OR and Logical AND
+
+A: Logical OR : 
+
+It returns true if one of conditions is true and it returns false if both the conditions are false.
+
+Example: i) (2 == '2') || (2 == 3) // true
+
+         ii) (undefined || 0) // 0
+         iii) (undefined || false) // false
+
+
+Logical AND:
+
+It returns true if both the conditions are true value or else it return false value.
+
+Example: console.log((null == undefined) && (2 > 1)); // true
+
+2) string methods and array methods
+
+String Methods:
+
+i) string length : It returns length of the string
+ii) indexOf() : It returns the staring index of the first occurence of the string. 
+iii) lastIndexOf() : It returns the starting index of the last occurence of the string 
+iv) slice(starting index, ending index): It returns the string of starting from the index till the end index. It counts from end the negative index
+v) substring(starting index, ending index) : same as slice but it doesn't count negative index
+vi) substr(starting index, length of the string): It return the string with the length mentioned.
+v) replace(): It replaces the string with string mentioned in the replace method. It relaces only the first occurence and if it want to replace all the occurences "/String/g" has to be included.
+vi) concat(): It concats 2 strings
+vi) charAt(): It returns the character at particular index in the given string
+vii) charCodeAt(): It returns the index value of particular string of entire document
+viii) split(): It converts the string into an array.
+
+
+
+3) Array Methods: 
+
+i) toString() : It returns the array in a string
+ii) join() : It returns the array in to a string and also returns an joining operator between the string
+iii) pop() : It returns that element which is popped out from an array. It pops the last element
+iv) push() :It pushes the element to the end of an array. and returns the length of the string.
+v) shift() :It removes the element from the starting of an array.
+vi) unshift() : It adds new element to an array in the front. and returns the length of an array
+vii) index : It adds the element at 0th index and removes the element at that position
+viii) length : I am adding an element at the end of the array using the length
+ix) delete : It returns the boolean value if it deletes the element at that index and make that index as undefined
+x) splice() :  It returns adding element at the 0th index removing previous element
+xi)concat() : It adds an element at the end of the array
+xii) slice() : It returns the element at first index and not includes the end argument. 
+xiii) valueOf() : It returns the primitive value of an object.
+
+
+site 1: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+site 2: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+
+site 3: http://www.w3schools.com/js/default.asp
+
+
