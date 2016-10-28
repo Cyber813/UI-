@@ -146,9 +146,59 @@ y = ++i;
 console.log(y); // It first assigns the increment value to 'y' and then
 
 var i = 3;
+var n ="teja";
 y = --i;
 console.log(y);
-console.log(typeof(y));
+console.log(typeof(y) + typeof(n)); // It first assigns the decrement value to 'y' and then assigns the value to the operand and returns the type of y
+
+// for loop
+
+for(i=0;i<10;i++)
+            {
+            console.log(i );
+            }
+//while loop
+var i = 2
+while(i<10)
+{
+	console.log(i);
+	i++;
+}
+
+//dowhile
+
+var i = 5;
+do{
+	console.log(i);
+	i++;
+}
+while(i<10);
+
+// if else
+
+if(2 == '2'){
+	console.log("It is true");
+}else
+{
+	console.log("It is false"); // It is true
+}
+
+//switch
+
+var thisDay = Number(prompt("pleas enter a day", ""));
+
+switch(thisDay) {
+	case 1: 
+	alert("This day is Monday");
+	break;
+	case 2:
+	 alert("This day is Tuesday") ;
+	break;
+	default:
+	alert("This day is Wednesday") ;
+
+}
+
 
 
 

@@ -44,21 +44,16 @@ object using the '.' from left to right
 27. Comma or Sequence - The comma operator evaluates from left to right and returns the value of the last operand. ',' .. lowest priority
 
 Right-to-Left Associativity
+
 1. new(without argument list): To create an instance of existing object.. 'new'.. 
 2. logical NOT : Giving the value as truthy if it is false and vice-versa.. '! expression'
 3. Bitwise NOT : It gives opposite value for each bit. '~'
 4. Unary Plus: It converts the operands into a number. If it can't parse a particular value then it returns a NaN '+'
 5. Unary Negation: It negates the operand "-"
 6. Pre Increment: It first increment and then assign a value to a operand(++..expr)
-7. Pre Decrement:(-- expression)
-8. typeof:
-9. void :
-10. delete :
-11. Exponentiation : 
-12. Conditional:
-13. Assignment:
-14. yield:
-15. yield* :
+7. Pre Decrement:(-- expression) : It first decrements and then assign a value to an operand(--..expression)
+8. typeof: It returns the datatype of an object or variable.
+9. void : This operator evaluates the expression and returns the undefined
 
 
 
@@ -66,4 +61,138 @@ Right-to-Left Associativity
 
 
 Refer the Homework1.html for the examples of different precendence operators and how they are evaluated.
+
+
+2. Difference between == and ===  and also != and !==
+
+A: Equality '==' : It checks only the value 
+
+Example: 2 == '2' // true
+
+  Strict Equality '===' : It checks both the value and type
+
+Example: 2 === '2' // false
+
+Not Equality : It checks only the value.
+
+Example: 2 != '2' // False
+
+Strict Not Equality: It checks both value and type 
+
+Example: 2 !== '2' // True
+
+
+
+
+
+3. Difference between null and undefined?
+
+Both null and undefined are the datatypes.
+
+A: null:  the value is null and type is an object.
+
+Example: var area = null;
+         console.log(typeof(area)); // object
+
+         null == 0 // true
+         null == false // true
+
+
+  undefined: when a variable is not declared it returns the type undefined and value is undefined. It returns value also undefined
+
+ Example: var area
+          console.log(area); // undefined
+          console.log(typeof(area)); // undefined
+   
+       null == undefined // true
+       null === undefined // false
+
+
+  4. Loop (for, while, do while)  
+   
+   A: for: for(statement1; statement2; statement3)
+               {
+               code that has to be executed
+                }
+
+   for(i=0;i<10;i++)
+            {
+            console.log(i + "<br>");
+            }
+
+
+First it will assign a value 0 to the varaible 'i' and then checks the condition if i < 10 then it execute the code in the open and closed braces and then it increments the 'i' value. Then again checks the condition and this time i value incremented to 1 and it satisfies the above condition. It then executes the code in the open and curly braces and then increments the 'i' value. It repeats until the condition satisfies. 
+
+  while : 
+  var i = 1
+  while(i<10)
+  {
+  console.log(i);
+  i++;
+  } 
+
+  It has the value as 1 in 'i'. It compares the 'i' value with 10 and then prints the i value. Then it increments the i value and again comes out of the loop. checks the 'i' value with the 10 and again it follows until the condition is set true.
+
+
+
+do while :
+
+var i = 5;
+do{
+	console.log(i);
+	i++;
+}
+while(i<10);
+
+From the above example the value of i is printed first as 5 and i value incremented to 6 it checks the condition now as i < 10. It is true and it  then prints the value 6. So it executes til the condition remained true.
+
+
+ifelse:
+
+if(2 == '2'){
+	console.log("It is true");
+}else
+{
+	console.log("It is false");
+}
+
+From the above example 
+if statement is used to compare the 2 conditions and return true it is true otherwise else block will be executed.
+
+switch:
+
+var thisDay = Number(prompt("pleas enter a day", ""));
+
+switch(thisDay) {
+	case 1: 
+	alert("This day is Monday");
+	break;
+	case 2:
+	 alert("This day is Tuesday") ;
+	break;
+	default:
+	alert("This day is Wednesday") ;
+
+}
+
+
+
+To avoid multiple if else statements, switch is used.
+
+From the above example if i gave the number as 1 it prints Monday otherwise it prints this day is wednesday.
+
+
+
+
+site 2: https://github.com/maxogden/javascript-for-cats
+site 3: https://en.wikibooks.org/wiki/JavaScript
+site 4: http://bonsaiden.github.io/JavaScript-Garden/#core
+site 5: http://www.w3schools.com/js/default.asp
+
+
+
+
+
+
+
 
