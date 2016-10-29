@@ -114,6 +114,33 @@ console.log(b.slice(1)); // Do not include the first element and gives the rest 
 // valueOf()
 console.log(b.valueOf()); // It returns the primitive value of an object.
 
+//forEach()
+
+var c = ["Teja",'2','3',4]
+
+var myFunction = function(item){
+	console.log("For an Element" + " "+item);
+}
+
+c.forEach(myFunction); // It is calling a function for each array element, passing functions as an arguments to another function.
+
+
+//sort - default is alphabetically
+var d = [1,2,4,3]
+console.log(d.sort()); // Sorts 1,2,3,4
+
+//reverse
+console.log(d.reverse()); // it reverse the array 3,4,2,1
+
+//map
+var e = d.map(function(item){
+	return item + 'This is number';
+})
+
+console.log(e); // creates a copy of an array and return something that is customized for each item
+
+
+
 
 
 

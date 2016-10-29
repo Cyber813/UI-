@@ -49,6 +49,12 @@ x) splice() :  It returns adding element at the 0th index removing previous elem
 xi)concat() : It adds an element at the end of the array
 xii) slice() : It returns the element at first index and not includes the end argument. 
 xiii) valueOf() : It returns the primitive value of an object.
+xiv) forEach() : Calls a function for each array element
+xv) map() : creates a copy of an array and return something that is customized for each item
+xvi) sort(): sorts an array in alphabetical order
+xvii) reverse(): Reverse an array.
+
+
 
 
 site 1: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
@@ -56,5 +62,6 @@ site 1: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global
 site 2: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 
 site 3: http://www.w3schools.com/js/default.asp
+site 4: https://www.tutorialspoint.com/javascript/index.htm
 
 

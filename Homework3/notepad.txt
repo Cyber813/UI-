@@ -1,0 +1,70 @@
+1) String functions.
+
+site: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+
+i) string length : It returns length of the string
+
+ii) indexOf() : It returns the staring index of the first occurence of the string. 
+
+iii) lastIndexOf() : It returns the starting index of the last occurence of the string 
+
+iv) slice(starting index, ending index): It returns the string of starting from the index till the end index. It counts from end the negative index
+
+v) substring(starting index, ending index) : same as slice but it doesn't count negative index
+
+vi) substr(starting index, length of the string): It return the string with the length mentioned.
+
+v) replace(): It replaces the string with string mentioned in the replace method. It relaces only the first occurence and if it want to replace all the occurences "/String/g" has to be included.
+
+vi) concat(): It concats 2 strings
+
+vi) charAt(): It returns the character at particular index in the given string
+
+vii) charCodeAt(): It returns the index value of particular string of entire document
+
+viii) split(): It converts the string into an array.
+
+ix) anchor(): <a name="value">TejaSudha name has Sudha</a>
+
+x) big(): returns the string in big html element
+
+xi) bold(): returns the string in b tag
+
+xii) fontcolor(): returns the font tag in color red
+
+xiii) fontsize(): there is a size of 0 to 7 signed numbers.
+
+xiv) italics():return the string in italic tag
+
+xv) link():return the string in 'a' tag
+
+xvi) small(): return the string in the small tag
+
+xvii) strike(): return the string in the strike tag
+
+xviii) sub(): return the string in the sub tag
+
+xix)sup(): return the string in the sup tag
+
+xx) trim(): it deletes the white spaces
+
+xxi) trimLeft(): it deletes whitespaces only on left string.
+
+xxii) trimRight(): It deletes whitespaces only on Right of the string
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
