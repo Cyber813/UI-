@@ -1,0 +1,80 @@
+Question1: What is constructor? A new keyword and Why do we use it?
+
+Constructor: Any function which is used as a constructor. It is used with the new keyword
+
+Question2: 
+instanceof
+
+It checks whether an object is in its prototype chain and created from a prototype property of a constructor.
+
+
+object instanceof constructor
+
+It follows only the prototype chain and checks the current object and return true if the object is of the specified object type.
+
+
+check the type of an object at run time.
+
+
+Question 3: 
+
+prototype:
+
+Objects have different properties and some may be methods and some may be properties.
+Arrays , boolean values can be property too.
+
+Every object consisting of properties and methods  associated with the another object that is called prototype object of that object. 
+
+An empty object may inherited the properties and methods from the prototype object.
+
+
+They inherit the properties and methods from the prototype object. 
+
+Objects which are created using an object literal and new Object() will inherit from the Obect.prototype.
+
+
+
+Question 4: this keyword.
+
+It owns the function if it is defined inside a function.
+and same with object.
+
+
+It is defined in Global context and Function context.
+i) In Global Context , this refers to the global object and window object is equal to global object.
+ii) In Function Context, this depends on how the function is called.
+
+
+
+
+
+this is all about scope. Every function has its own scope, 
+
+So everytime a function executes, a new "instance" of that function has a new meaning of "this".
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+site1: http://stackoverflow.com/questions/1646698/what-is-the-new-keyword-in-javascript
+site2: https://blog.pivotal.io/labs/labs/javascript-constructors-prototypes-and-the-new-keyword
+site3: http://javascript.info/tutorial/instanceof
+site4: http://stackoverflow.com/questions/2449254/what-is-the-instanceof-operator-in-javascript
+site5: http://www.w3resource.com/javascript/operators/instanceof.php
+site6:http://www.w3schools.com/js/js_object_prototypes.asp
+site7:https://rainsoft.io/gentle-explanation-of-this-in-javascript/
+
+

@@ -1,0 +1,86 @@
+Question 1 :
+
+Difference between arr.forEach() and arr.map() ?
+
+A:  arr.forEach() : It iterates a value for each element and doesn't return any value.
+
+arr.map():
+
+It returns a new value for each element in an array.
+It maps the current element with the new value.
+
+Question 2 :
+
+What is an Object and Object Methods (.hasOwnProperty(item))?
+
+A: Object : It is a collection of name value pairs.
+
+object methods:
+
+These are the actions that can be performed on objects and it could be properties and values. 
+
+function definition is also a method in javascript object.
+
+In this example 
+
+var object1 = {firstName: "Tejasudha", lastName:"Gariganti"};
+
+console.log(object1.firstName);
+var object2 = Object.create(object1);
+console.log(object2.firstName);
+
+console.log("firstName" in object1);//true
+console.log("firstName" in object2);//true
+console.log(object1.hasOwnProperty("firstName")); //true
+console.log(object2.hasOwnProperty("firstName")); // false
+
+
+object2 is inherited from object1 and the object like that doesnot satisfy with the hasOwnProperty.
+Inherited object doesn't satisfy the hasOwnProperty.
+
+Where as 'in' method satisfies both the properties.
+
+Question 3: Different ways of creating an object.
+
+A: Javascript objects created in 3 different ways
+1) By using new  keyword
+2) By using object literal
+3) By using constructor.
+
+From the first 2 ways it creates only the single object where as from the last way it constructs the multiple instances from the constructed object.
+
+
+Question 4: Understand about properties and 
+Adding a property, deleting a property,  edit the property value, check the property.
+
+A: properties are associated with the javascript object.
+An object is a collection of properties.
+
+
+Question 5: What is Prototype in object ?
+
+A: Objects have different properties and some may be methods and some may be properties.
+Arrays , boolean values can be property too.
+
+Every object consisting of properties and methods  associated with the another object that is called prototype object of that object. 
+
+An empty object may inherited the properties and methods from the prototype object.
+
+
+They inherit the properties and methods from the prototype object. 
+
+Objects which are created using an object literal and new Object() will inherit from the Obect.prototype.
+
+
+
+
+site1: http://stackoverflow.com/questions/6439915/how-to-set-a-javascript-object-values-dynamically
+site2:http://stackoverflow.com/questions/354909/is-there-a-difference-between-foreach-and-map
+site3: http://www.w3schools.com/js/js_object_prototypes.asp
+site4: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype
+site5: http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/
+
+
+
+
+
