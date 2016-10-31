@@ -1,0 +1,45 @@
+Question :  JavaScript call Apply Bind Methods? How to use them? What are the use cases when the use cases when we have to use them?
+
+
+
+1) bind():
+
+It allows to set a value to a specific object, reuse a method and curry a function
+It creates a new function where the 'this' keyword used to refer a value of the created function used by the bind method to create a new function 
+Using the this keyword value assignig that property value to the newly created function using the bind method
+
+2) call():
+
+It directly invokes the new object and parameters are given inside the object. It invokes the function immediately
+
+
+
+3)apply():
+
+apply() is also same as the call(), the difference is at it takes the list of arguments in the array list.
+
+Usecase : 1) Function Borrowing using call(),apply() and bind()
+
+When a new object is defined and then if there is  a need of function. By using the bind() , call()  and apply() would assign the function property to that new object.
+
+
+2) Function Currying using call(), apply() and bind()
+
+When the new object is created using call(), apply(), and bind() there is a new copy created keeping the default prototype parameters and just changing the values.
+
+
+
+
+
+
+
+
+
+
+
+
+site1: https://www.udemy.com/understand-javascript/learn/v4/t/lecture/2237530
+site2: http://stackoverflow.com/questions/2236747/use-of-the-javascript-bind-method
+site3: http://stackoverflow.com/questions/15455009/javascript-call-apply-vs-bind
+site4: http://davidshariff.com/blog/borrowing-methods-in-javascript/
+site5: http://javascriptissexy.com/javascript-apply-call-and-bind-methods-are-essential-for-javascript-professionals/
