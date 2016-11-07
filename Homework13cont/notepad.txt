@@ -1,0 +1,106 @@
+Question 1: Practice all the selectors.
+
+1) document.getElementsByTagName
+2) document.getElementById
+3) document.getElementByClassName
+4) document.querySelectorAll
+
+ANS: 
+i) document.getElementByTagName():
+
+-> This method returns all the element of specified tagname. That is represented as nodelistobject.
+-> NodeList object represents a collection of nodes.
+-> The nodes can be accessed by index numbers and the index starts at 0.
+-> The parametervalue "*" returns all the elements in the document.
+
+ii) document.getElementById():
+
+-> This method returns all the element of specified id.
+-> It returns null if no elements with the specified ID exists.
+-> An ID should be unique within a page. If more than one element with the specified ID exists it returns the first element in the source code.
+
+
+
+iii) document.getElementsByClassName():
+
+-> This method returns all the element specified of className, as NodeList object
+-> The NodeList object represents a collection of nodes. The nodes can be accessed by index numbers. The index starts at 0.
+
+iv) document.querySelectorAll() :
+
+--> This method returns all the elements that matches a specified CSS selector as a static NodeList object.
+
+-> The NodeList object represents a collection of nodes. The nodes can be accessed by index numbers. The index starts at 0.
+
+
+
+
+
+
+
+
+
+
+
+
+Question 2: event listener .addEventListener
+
+-> .addEventListener() attaches a event listener to the specified element.
+-> This method can attach the event handlers to the element without overwriting the existing event handlers.
+-> We can add many event handlers to one element.
+-> We can add many event handlers of the same type to one element. i.e., 2 click events.
+-> We can add event listeners to any DOM object not only HTML elements. i.e., the window object.
+-> This method  makes it easier to control how the event reacts to bubbling.
+
+
+syntax: 
+element.addEventListener(event, function, useCapture);
+
+First Parameter : event - > eg: click, mousedown
+Second Parameter : function -> we want to call when the event occurs.
+Third Parameter :  useCapture - > boolean value 
+Whether to use event capturing or event bubbling
+
+
+
+i) Add an event Handler to an Element.
+
+When the user clicks on the "This is para1" return "Hi, TEJASUDHA!". 
+
+ii) Add Many Event Handlers to the same Element
+
+Adding many event handlers to the same element. For example: Adding the mouseover and click to the button element.
+
+
+iii) Add an Event Handler to the Window Object
+When clicked on the window, the inner HTML of the paragraph by class name TEJA would be changed by adding the window.addEventListener()
+
+
+iv) Passing Parameters.
+
+Passing Parameters in the anonymous function and adding the addEventListener
+to specified element. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+site1: http://www.javatpoint.com/document-getElementsByTagName()-method
+site2: https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByTagName
+site3: http://www.w3schools.com/jsref/met_document_getelementsbytagname.asp
+site4: http://www.w3schools.com/js/js_htmldom_eventlistener.asp
+site5: http://stackoverflow.com/questions/256754/how-to-pass-arguments-to-addeventlistener-listener-function
